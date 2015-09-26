@@ -3,16 +3,17 @@ using System.Collections;
 
 public class MouseMovement : MonoBehaviour {
 
-	public float sensitivity = 10;
-
-
-	// Use this for initialization
+	public float moveSpeed = 5;
+	
 	void Start () {
 	
 	}
-	
-	// Update is called once per frame
+
+
 	void Update () {
-	
+		if (Input.GetMouseButton(0)) {
+			transform.Translate ((Input.mousePosition.x - Screen.width / 2) / 50000 * moveSpeed, 0, (Input.mousePosition.y - Screen.height / 2) / 50000 * moveSpeed);
+		}
+
 	}
 }
