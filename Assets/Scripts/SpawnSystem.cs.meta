@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7ab31c480762e4544b84d1a2a3d4e773
+timeCreated: 1443360125
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - SuperCell: {fileID: 143354, guid: b58feab3c39e9ee4e8f42bab7044f00d, type: 2}
+  - Spiro: {fileID: 196600, guid: b98686620b9e10e43aa33de900a45f7b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

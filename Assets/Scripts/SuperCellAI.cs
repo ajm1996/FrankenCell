@@ -39,8 +39,8 @@ public class SuperCellAI : MonoBehaviour {
 				                                          player.transform.position, speed / 10 * Time.deltaTime);
 				transform.LookAt(player.transform.position);
 			} else {
-				randTargetPosition = (transform.position - player.transform.position).normalize
-					* (20 - Math.abs(transform.position - GameObject.Find ("PetriDish").transform.position));
+				//randTargetPosition = (transform.position - player.transform.position).normalize
+				//	* (20 - Math.abs(transform.position - GameObject.Find ("PetriDish").transform.position));
 			}
 
 		} else {
