@@ -46,8 +46,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraHover.cs" />
+     <Compile Include="Assets\Scripts\CreditCamera.cs" />
      <Compile Include="Assets\Scripts\MouseMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\SpawnSystem.cs" />
      <Compile Include="Assets\Scripts\SpiroAI.cs" />
      <Compile Include="Assets\Scripts\SuperCellAI.cs" />
